@@ -1,24 +1,43 @@
-body{
+*{
     margin: 0;
-    padding: 0;}
+    padding: 0;
+}
 
-.container{
-    border-style: solid;
-    border-color:red;
-    width: 500px;
-    height: 120px;
+body{
+    background-color: rgba(165, 42, 42, 0.541);
+}
+
+#principal-container{
+    width: 95%;
+    max-width:1000px ;
+    margin: 0 auto;
+}
+
+header{
+    background-color: crimson;
+    margin: 20px 0;
+}
+
+header h1{
+    padding: 20px 0;
     text-align: center;
+}
+.container{
+    background-color: darkorange;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
     margin: auto;
-    padding-top: 50px;
+    text-align: center;
 }
 
 .container-result{
-    height: 80px;
-    width: 250px;
-    border-style: solid;
-    border-color: red;
-    text-align: center;
+    background-color: darkgoldenrod;
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
     margin: auto;
+    text-align: center;
 }
 
 #Button-comp{
@@ -27,7 +46,8 @@ color:white;
 background-color: red;
 }
 
-#title{
-text-align: center;
+@media screen and (max-width: 800px) {
+    body{
+        background-color: black;
+    }
 }
-

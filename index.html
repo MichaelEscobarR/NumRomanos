@@ -9,22 +9,26 @@
     <title>Convertir enteros a romanos</title>
 </head>
 <body>
-    <h1 id="title">Conversión de números enteros a romanos</h1>
-    <div id="container" class="container">
-        <div id="number">
-            <label for="numb">Ingresa el número</label>
-            <input type="number" name="numb" id="numb">
-            <br><br>
-            <button id= "Button-comp" onclick="convertToRoman()">Convertir</button>
-        </div>
-    </div>
-    <br>
-
-    <div class="container-result"><br>
-        <label for="resultado">Número romano:</label>
+    <div id="principal-container">
+        <header>
+            <h1 id="title">Conversión de números enteros a romanos</h1>
+        </header><br>
+        <section class="main">
+            <div id="container" class="container">
+                <div id="number">
+                    <label for="numb">Ingresa el número</label>
+                    <input type="number" name="numb" id="numb"><br><br>
+                    <button id= "Button-comp" onclick="convertToRoman()">Convertir</button>
+                </div>
+            </div>
+        </section>
         <br>
-        <input type="text" name="resultado" id="resultado">
-        <br>
+            <section>
+                <div class="container-result">
+                    <label id="" for="resultado">Número romano:</label>
+                    <input type="text" name="resultado" id="resultado">
+                </div>
+            </section>
     </div>
 </body>
 </html>
